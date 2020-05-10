@@ -1,13 +1,16 @@
+/*
 * {
     border: black;
     border-width: 1px;
     border-style: solid;
 }
+*/
 
 body {
     font-family: "Verdana", "Arial";
     font-size: 1.1em;
     line-height: 1.6;
+    background-color: #d8dee6; /* light-gray */
 }
 
 h1 {
@@ -16,61 +19,80 @@ h1 {
 
 a {
     text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #7C8D99; /* gray */
 }
 
 #main {
+    background-color: white;
+
     display: grid;
     justify-content: center;
     align-items: center;
     grid-template-columns: 80%;
-    grid-template-rows: 200px 100px auto 100px;
+    grid-template-rows: 120px 110px auto 100px;
     grid-template-areas:
         "title"
         "menu"
         "content"
         "footer";
-    grid-gap: 5px;
+    grid-gap: 0px;
 }
 
 #main_content {
-    grid-area: content
+    grid-area: content;
+    background-color: #C6E2F5; /* blue */
+    border-radius: 15px;
 }
 
 #main_title {
-    grid-area: title
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    grid-area: title;
+
     display: flex;
     justify-content: center;
     align-items: stretch;
 }
 
 #main_menu {
-    grid-area: menu
-    display: flex;
-    justify-content: left;
-    align-items: center;
+    grid-area: menu;
+    background-color: #C6D6F5; /* violet-blue */
 
     display: flex;
     flex-direction: row;
-    align-items: stretch;
+    align-items: center;
     justify-content: flex-start;
 }
 
 #main_footer {
-    grid-area: footer
+    grid-area: footer;
+    background-color: #C6D6F5; /* violet-blue */
 }
 
 .main_menuitem {
-    margin: 5px;
-    background-color: yellow;
+    padding: 0px 5px 0px 5px;
+    background-color: #D9C6F5; /* pink */
+    color: white;
 }
 
 .main_menuitem:hover {
-    background-color: pink;
+    background-color: #E2F5C6; /* green */
+}
+
+.main_menuitem a:hover {
+    color: black;
 }
 
 .main_menuitem[selected] {
-    background-color: pink;
+    background-color: #E2F5C6; /* green */
+    color: black;
+}
+
+@media(min-width:900px) {
+    #main {
+        width: 80%;
+        margin: auto;
+    }
 }

@@ -1,18 +1,24 @@
 #main_content {
-    grid-area: content
-    justify-content: center;
-    align-items: stretch;
+    grid-area: content;
 
     display: grid;
+    justify-content: center;
+    align-items: stretch;
 }
 
 .main_post {
     padding: 5px;
+    background-color: white;
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
 }
 
 @media(max-width:900px) {
     #main_content {
         padding: 5px;
+
         grid-template-columns: 98%;
         grid-gap: 30px;
     }
@@ -21,6 +27,7 @@
 @media(min-width:900px) {
     #main_content {
         padding: 30px;
+
         grid-template-columns: 49% 49%;
         grid-auto-rows: minmax(200px, auto);
         grid-gap: 30px;
