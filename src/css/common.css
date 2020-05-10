@@ -31,6 +31,10 @@ a:hover {
     color: #7C8D99; /* gray */
 }
 
+img {
+    padding: 10px;
+}
+
 #main {
     background-color: white;
 
