@@ -35,14 +35,16 @@ img {
     padding: 10px;
 }
 
-.back_button {
+.btn {
     padding: 0px 5px 0px 5px;
     background-color: #D9C6F5; /* pink */
     color: black;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
-.back_button:hover {
+.btn:hover {
     background-color: #E2F5C6; /* green */
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
 }
 
 #main {

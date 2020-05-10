@@ -2,6 +2,7 @@
     background-color: white;
     display: flex;
     flex-direction: column;
+    transition: 0.3s;
 }
 
 #survey_form {
