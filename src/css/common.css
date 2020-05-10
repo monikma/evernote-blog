@@ -14,6 +14,10 @@ h1 {
     font-family: "Georgia", "Times New Roman";
 }
 
+a {
+    text-decoration: none;
+}
+
 #main {
     display: grid;
     justify-content: center;
@@ -60,4 +64,13 @@ h1 {
 
 .main_menuitem {
     margin: 5px;
+    background-color: yellow;
+}
+
+.main_menuitem:hover {
+    background-color: pink;
+}
+
+.main_menuitem[selected] {
+    background-color: pink;
 }
