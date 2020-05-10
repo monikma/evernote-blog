@@ -1,0 +1,4 @@
+#main_footer {
+    grid-area: footer;
+    background-color: #C6D6F5; /* violet-blue */
+}

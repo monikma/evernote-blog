@@ -1,0 +1,5 @@
+#main_content {
+    grid-area: content;
+    background-color: #C6E2F5; /* blue */
+    border-radius: 15px;
+}

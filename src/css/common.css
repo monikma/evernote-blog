@@ -6,6 +6,11 @@
 }
 */
 
+@import "commons/title.css";
+@import "commons/menu.css";
+@import "commons/content.css";
+@import "commons/footer.css";
+
 body {
     font-family: "Verdana", "Arial";
     font-size: 1.1em;
@@ -40,54 +45,6 @@ a:hover {
         "content"
         "footer";
     grid-gap: 0px;
-}
-
-#main_content {
-    grid-area: content;
-    background-color: #C6E2F5; /* blue */
-    border-radius: 15px;
-}
-
-#main_title {
-    grid-area: title;
-
-    display: flex;
-    justify-content: center;
-    align-items: stretch;
-}
-
-#main_menu {
-    grid-area: menu;
-    background-color: #C6D6F5; /* violet-blue */
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-}
-
-#main_footer {
-    grid-area: footer;
-    background-color: #C6D6F5; /* violet-blue */
-}
-
-.main_menuitem {
-    padding: 0px 5px 0px 5px;
-    background-color: #D9C6F5; /* pink */
-    color: white;
-}
-
-.main_menuitem:hover {
-    background-color: #E2F5C6; /* green */
-}
-
-.main_menuitem a:hover {
-    color: black;
-}
-
-.main_menuitem[selected] {
-    background-color: #E2F5C6; /* green */
-    color: black;
 }
 
 @media(min-width:900px) {
