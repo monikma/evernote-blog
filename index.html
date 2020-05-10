@@ -1,37 +1,36 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="src/css/main.css">
+        <link rel="stylesheet" type="text/css" href="src/css/common.css">
+        <link rel="stylesheet" type="text/css" href="src/css/index.css">
         <meta>
     </head>
     <body>
         <div id="main">
             <div id="main_title"><h1>My Awesome Blog</h1></div>
             <div id="main_menu">
-                <div class="main_menuitem"><h2>Home</h2></div>
-                <div class="main_menuitem"><h2>About</h2></div>
+                <div class="main_menuitem"><h2><a href="index.html">Home</a></h2></div>
+                <div class="main_menuitem"><h2><a href="src/html/about.html">About</a></h2></div>
             </div>
             <div id="main_content">
-                <div class="main_post">
-                    <h3>Post 1</h3>
-                    <p>Ah</p>
-                </div>
-                <div class="main_post">
-                    <h3>Post 2</h3>
-                    <p>Oh</p>
-                </div>
-                <div class="main_post">
-                    <h3>Post 3</h3>
-                    <p>Yay</p>
-                </div>
-                <div class="main_post">
-                    <h3>Post 4</h3>
-                    <p>Ah</p>
-                </div>
-                <div class="main_post">
-                    <h3>Post 5</h3>
-                    <p>Oh</p>
-                </div>
+                <a href="./src/html/post1.html">
+                    <div class="main_post">
+                        <h3>Decide on the overall structure of your project</h3>
+                        <p>You'll want separate HTML files, and related CSS files, for each piece of the website: the main page, a blog post ...</p>
+                    </div>
+                </a>
+                <a href="./src/html/post2.html">
+                    <div class="main_post">
+                        <h3>Draw out some mock pages of the website</h3>
+                        <p>Even you aren't confident in your own drawing skills, that's okay - just a quick sketch of the different headers ...</p>
+                    </div>
+                </a>
+                <a href="./src/html/post3.html">
+                    <div class="main_post">
+                        <h3>Begin considering your design system</h3>
+                        <p>This is really 2a, but doing a first draft of your webpages can help you take the first steps toward the design ...</p>
+                    </div>
+                </a>
             </div>
             <div id="main_footer">Footer</div>
         </div>
