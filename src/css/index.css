@@ -1,16 +1,28 @@
 #main_content {
     grid-area: content
-    display: flex;
     justify-content: center;
     align-items: stretch;
 
     display: grid;
-    padding: 30px;
-    grid-template-columns: 49% 49%;
-    grid-auto-rows: minmax(200px, auto);
-    grid-gap: 30px;
 }
 
 .main_post {
     padding: 5px;
+}
+
+@media(max-width:900px) {
+    #main_content {
+        padding: 5px;
+        grid-template-columns: 98%;
+        grid-gap: 30px;
+    }
+}
+
+@media(min-width:900px) {
+    #main_content {
+        padding: 30px;
+        grid-template-columns: 49% 49%;
+        grid-auto-rows: minmax(200px, auto);
+        grid-gap: 30px;
+    }
 }
