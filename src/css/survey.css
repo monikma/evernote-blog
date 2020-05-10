@@ -1,0 +1,17 @@
+#main_content {
+    background-color: white;
+}
+
+#yes_span {
+    width: 100px;
+    background-color: black;
+    display: inline-block;
+    background-color: #E2F5C6; /* green */
+}
+
+#no_span {
+    width: 1px;
+    background-color: black;
+    display: inline-block;
+    background-color: #D9C6F5; /* pink */
+}

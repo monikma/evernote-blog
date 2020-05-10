@@ -35,6 +35,16 @@ img {
     padding: 10px;
 }
 
+.back_button {
+    padding: 0px 5px 0px 5px;
+    background-color: #D9C6F5; /* pink */
+    color: black;
+}
+
+.back_button:hover {
+    background-color: #E2F5C6; /* green */
+}
+
 #main {
     background-color: white;
 
@@ -51,9 +61,16 @@ img {
     grid-gap: 0px;
 }
 
+@media(max-width:900px) {
+    #main {
+        padding: 5px;
+    }
+}
+
 @media(min-width:900px) {
     #main {
         width: 80%;
         margin: auto;
+        padding: 10px;
     }
 }

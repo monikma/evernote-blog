@@ -2,7 +2,7 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="../css/common.css">
-        <link rel="stylesheet" type="text/css" href="../css/about.css">
+        <link rel="stylesheet" type="text/css" href="../css/survey.css">
         <meta name="viewport" content="width=device-width" />
     </head>
     <body>
@@ -13,14 +13,11 @@
                 <div class="main_menuitem" selected><a href="about.html"><h2>About</h2></a></div>
             </div>
             <div id="main_content">
-                <p>This is <strike>a </strike>my awesome blog.</p>
-
-                <form id="survey_form" action="survey.html">
-                    <p>Do you like my blog?</p>
-                    <span><input type="radio" value="yes" name="doyoulike" required checked/>Yes</span>
-                    <span><input type="radio" value="no" name="doyoulike" required/>No</span>
-                    <button type="submit">Submit</button>
-                </form>
+                <h3>Survey results</h3>
+                <p>Thank you! This is how the others have responded:</p>
+                <p>Yes <span id="yes_span"> 99% </span></p>
+                <p>No <span id="no_span"> 1% </span></p>
+                <a href="../../index.html" class="back_button">< Back</a>
             </div>
             <div id="main_footer">Footer</div>
         </div>
