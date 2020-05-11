@@ -1,4 +1,4 @@
-#main_content {
+#content {
     grid-area: content;
 
     display: grid;
@@ -22,7 +22,7 @@
 }
 
 @media(max-width:900px) {
-    #main_content {
+    #content {
         padding: 5px;
 
         grid-template-columns: 98%;
@@ -31,7 +31,7 @@
 }
 
 @media(min-width:900px) {
-    #main_content {
+    #content {
         padding: 30px;
 
         grid-template-columns: 49% 49%;

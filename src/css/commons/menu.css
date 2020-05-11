@@ -1,4 +1,4 @@
-nav.main_menu {
+nav.menu {
     grid-area: menu;
     background-color: #C6D6F5; /* violet-blue */
     padding-left: 5px;
@@ -9,19 +9,19 @@ nav.main_menu {
     justify-content: flex-start;
 }
 
-.main_menuitem {
+.menu_item {
     margin: 0px 10px 0px 10px;
     padding: 0px 5px 0px 5px;
     background-color: #D9C6F5; /* pink */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
-.main_menuitem:hover {
+.menu_item:hover {
     background-color: #E2F5C6; /* green */
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
 }
 
-.main_menuitem[selected] {
+.menu_item[selected] {
     background-color: #E2F5C6; /* green */
     color: black;
 }
