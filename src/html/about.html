@@ -7,22 +7,24 @@
     </head>
     <body>
         <div id="main">
-            <div id="main_title"><h1>My Awesome Blog</h1></div>
-            <div id="main_menu">
+            <header id="main_title"><h1>My Awesome Blog</h1></header>
+            <nav class="main_menu">
                 <div class="main_menuitem"><a href="../../index.html"><h2>Home</h2></a></div>
                 <div class="main_menuitem" selected><a href="about.html"><h2>About</h2></a></div>
-            </div>
-            <div id="main_content">
-                <p>This is <strike>a </strike>my awesome blog.</p>
-                <div class="avatar"><img src="../png/avatar.png"/><small>Monika, No School, No Bio</small></div>
-                <form id="survey_form" action="survey.html">
-                    <p>Do you like my blog?</p>
-                    <span><input type="radio" value="yes" name="doyoulike" required checked/>Yes</span>
-                    <span><input type="radio" value="no" name="doyoulike" required/>No</span>
-                    <button type="submit">Submit</button>
-                </form>
-            </div>
-            <div id="main_footer">Footer</div>
+            </nav>
+            <section id="main_content">
+                <article>
+                    <h2>This is my awesome blog.</h2>
+                    <div class="avatar"><img src="../png/avatar.png"/><small>Monika, No School, No Bio</small></div>
+                    <form id="survey_form" action="survey.html">
+                        <p>Do you like my blog?</p>
+                        <span><input type="radio" value="yes" name="doyoulike" required checked/>Yes</span>
+                        <span><input type="radio" value="no" name="doyoulike" required/>No</span>
+                        <button type="submit">Submit</button>
+                    </form>
+                </article>
+            </section>
+            <footer id="main_footer">Footer</footer>
         </div>
     </body>
 </html>

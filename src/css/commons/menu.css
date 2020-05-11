@@ -1,4 +1,4 @@
-#main_menu {
+nav.main_menu {
     grid-area: menu;
     background-color: #C6D6F5; /* violet-blue */
     padding-left: 5px;

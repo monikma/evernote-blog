@@ -7,30 +7,32 @@
     </head>
     <body>
         <div id="main">
-            <div id="main_title"><h1>My Awesome Blog</h1></div>
-            <div id="main_menu">
+            <header id="main_title"><h1>My Awesome Blog</h1></header>
+            <nav class="main_menu">
                 <div class="main_menuitem" selected><a href="index.html"><h2>Home</h2></a></div>
                 <div class="main_menuitem"><a href="src/html/about.html"><h2>About</h2></a></div>
-            </div>
-            <div id="main_content">
-                <a href="./src/html/post1.html" class="main_post">
-                    <h3>Decide on the overall structure of your project</h3>
-                    <p>You'll want separate HTML files, and related CSS files, for each piece of the website: the main page, a blog post ...</p>
-                </a>
-                <a href="./src/html/post2.html">
-                    <div class="main_post">
+            </nav>
+            <section id="main_content">
+                <article class="main_post">
+                    <a href="./src/html/post1.html">
+                        <h3>Decide on the overall structure of your project</h3>
+                        <p>You'll want separate HTML files, and related CSS files, for each piece of the website: the main page, a blog post ...</p>
+                    </a>
+                </article>
+                <article class="main_post">
+                    <a href="./src/html/post2.html">
                         <h3>Draw out some mock pages of the website</h3>
                         <p>Even you aren't confident in your own drawing skills, that's okay - just a quick sketch of the different headers ...</p>
-                    </div>
-                </a>
-                <a href="./src/html/post3.html">
-                    <div class="main_post">
+                    </a>
+                </article>
+                <article class="main_post">
+                    <a href="./src/html/post3.html">
                         <h3>Begin considering your design system</h3>
                         <p>This is really 2a, but doing a first draft of your webpages can help you take the first steps toward the design ...</p>
-                    </div>
-                </a>
-            </div>
-            <div id="main_footer">Footer</div>
+                    </a>
+                </article>
+            </section>
+            <footer id="main_footer">Footer</footer>
         </div>
     </body>
 </html>

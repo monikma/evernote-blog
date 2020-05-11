@@ -7,24 +7,26 @@
     </head>
     <body>
         <div id="main">
-            <div id="main_title"><h1>My Awesome Blog</h1></div>
-            <div id="main_menu">
+            <header id="main_title"><h1>My Awesome Blog</h1></header>
+            <nav class="main_menu">
                 <div class="main_menuitem"><a href="../../index.html"><h2>Home</h2></a></div>
                 <div class="main_menuitem" selected><a href="about.html"><h2>About</h2></a></div>
-            </div>
-            <div id="main_content">
-                <h1>Decide on the overall structure of your project</h1>
-                <div class="avatar"><img src="../png/avatar.png"/><small>Monika, No School, No Bio</small></div>
-                <p>You'll want separate <b>HTML</b> files, and related <b>CSS</b> files, for <i>each</i> piece of the website: the main page, a blog post,
-                    and the (optional) design system (feel free to add more!). Note that these <u>should not</u> all fall in the parent
-                    directory, but should also be organized into subdirectories.</p>
-                <figure>
-                    <img src="../png/subfolders.png" title="Example subfolder structure."/>
-                    <figcaption>Image 1: Organize your files into subfolders.</figcaption>
-                </figure>
+            </nav>
+            <section id="main_content">
+                <article>
+                    <h2>Decide on the overall structure of your project</h2>
+                    <div class="avatar"><img src="../png/avatar.png"/><small>Monika, No School, No Bio</small></div>
+                    <p>You'll want separate <b>HTML</b> files, and related <b>CSS</b> files, for <i>each</i> piece of the website: the main page, a blog post,
+                        and the (optional) design system (feel free to add more!). Note that these <u>should not</u> all fall in the parent
+                        directory, but should also be organized into subdirectories.</p>
+                    <figure>
+                        <img src="../png/subfolders.png" title="Example subfolder structure."/>
+                        <figcaption>Image 1: Organize your files into subfolders.</figcaption>
+                    </figure>
+                </article>
                 <a href="../../index.html" class="btn">< Back</a>
-            </div>
-            <div id="main_footer">Footer</div>
+            </section>
+            <footer id="main_footer">Footer</footer>
         </div>
     </body>
 </html>
