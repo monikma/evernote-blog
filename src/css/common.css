@@ -33,6 +33,8 @@ a:hover {
 
 img {
     padding: 10px;
+    width:100%;
+    max-width: 360px;
 }
 
 .btn {
